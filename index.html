@@ -1,2 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang = 'en'>
+<head>
+    <title> About Me! </title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "style.css">
+    <script>src = "index.js" </script> 
+</head>
+<body>
+    <h1> HELLO WORLD </h1>
+    <button onclick = "myFunction()"> Try it </button>
+    <p id = "demo"></p>
 
+
+    My name is Michelle. <br>
+    <h2>My friend is Srijan.</h2>
+    <i>My other friend is Tanusri</i>><br>
+    <u>Hello</u>
+    <p>Hello we are in Ml Bootcamp. We are coding in HTML, CSS.</p>
+    <a href = "https://google.com/"> This is a link.</a>
+    <img src = "paperdreams.png" alt = "PAPER DREAMS" width = "128" height = "128">
+
+<script>
+    function myFunction()
+    {
+        var hour = new Date().getHours;
+        var gretting;
+        if (hour<18)
+        {
+            greeting = "good day";
+        }
+        else
+        {
+            greeting = "good evening"
+        }
+        document.getElementById("demo").innerHTML = greeting;
+    }
+</script>
+</body>
+</html>
