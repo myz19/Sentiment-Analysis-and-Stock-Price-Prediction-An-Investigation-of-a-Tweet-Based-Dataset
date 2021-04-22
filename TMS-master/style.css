@@ -1,0 +1,117 @@
+.center 
+{
+    text-align: center 
+}
+
+body 
+{
+    background: #eaf1f6;
+}
+
+p.title
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 24pt;
+    padding-top: 75px;
+    padding-left: 150px;
+    padding-right: 150px; 
+}
+
+p.names
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 150px;
+
+}
+
+p.heading
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18pt;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+p.body
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 12pt;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;    
+}
+
+
+a.links
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: medium;
+    color: #000000;
+}
+
+a.ghub
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: medium;
+    color: #2b2b2b;
+    padding-left: 150px;
+}
+
+/* Style the tab */
+.tab 
+{
+    padding-left: 300px;
+    padding-right: 260px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+  
+/* Style the buttons that are used to open the tab content */
+.tab button 
+{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 110px;
+    padding-right: 110px;
+    transition: 0.3s;
+}
+  
+/* Change background color of buttons on hover */
+.tab button:hover 
+{
+    background-color: #a6c4d9;
+}
+  
+/* Create an active/current tablink class */
+.tab button.active 
+{
+    background-color: #FFFFFF;
+}
+  
+/* Style the tab content */
+.tabcontent 
+{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #eaf1f6;
+    border-top: none;
+}
+
+.vid
+{
+    text-align: center;
+}
+
+.picture
+{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
